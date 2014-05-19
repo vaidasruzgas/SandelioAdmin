@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, new, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section{
+  padding: 0;
+  margin: 0;
+}
+
+.banner{
+  background-color: #11233b;
+  color: white;
+  padding: 10px 20px;
+}
+  
+body{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#f0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+footer{
+  clear: both;
+  background-color: #11233b;
+  color: white;
+  padding: 5px 20px;
+  position: relative;
+  top: 10px;
+}
+main {
+  min-height: 660px;
+  width: 955px;
+  position:relative;
+  top:42px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #11233b;
+}
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    margin-top:50px;
+    
+    padding:6px; 
+    background-color:#20416c; 
+    border-width:3px;
+    border-style:solid;
+    border-color:#11233b; 
+    color:white;
+    
+}
+input.s1 {   
+    width:100%;
+    font-size:13pt;
+    text-align:left;
+}
+
+li a {
+    color: white;
+}
+
+li {
+ display: inline;
+ }
+ .atgal {
+     background-color:#20416c;
+     color:white;
+     position: relative;
+     top:15px;
+     left:10px;
+     border-width:3px;
+     border-style:solid;
+     border-color:#11233b; 
+ }
+ 
+ .atgal-a {
+     color:white;
+ }
+ 
+ nav {
+  background-color: #20416c;
+  width:915px;
+  position:absolute;
+  top: 78px;
+  border-width:3px;
+  border-style:solid;
+  border-color:#11233b;
+  padding: 10px 20px;
+  
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #11233b;
+    background-color: #20416c;
+    color:white;
+}
+.currentLogin{
+    color: white;
+    float: right;
+}
+.userinfo{
+    color: white;
+}
+.admin{
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: white;
+    position: relative;
+    top:-25px;
+}
+
+ .sarasas{
+     background-color:#20416c;
+     color:white;
+     position: relative;
+     top:-15px;
+     left:700px;
+     border-width:3px;
+     border-style:solid;
+     border-color:#11233b; 
+ }
+ 
+ .sarasas-a{
+     color:white;
+ }
+ 
+ .pirkimas{
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
