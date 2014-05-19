@@ -77,7 +77,7 @@ define("COOKIE_PATH", "/");  //Avaible in whole domain
  * welcome email to newly registered users.
  */
 define("EMAIL_FROM_NAME", "Demo");
-define("EMAIL_FROM_ADDR", "demo@ktu.lt");
+define("EMAIL_FROM_ADDR", "demo@demo.lt");
 define("EMAIL_WELCOME", false);
 
 /**
